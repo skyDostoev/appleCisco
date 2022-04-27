@@ -1,0 +1,10 @@
+^E:\IT\DART\FLUTTER\PROJECTS\APPLE_CISCO\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/IT/dart/flutter/Projects/apple_cisco/windows -BE:/IT/dart/flutter/Projects/apple_cisco/build/windows --check-stamp-file E:/IT/dart/flutter/Projects/apple_cisco/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

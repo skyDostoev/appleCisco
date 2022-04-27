@@ -1,0 +1,10 @@
+^E:\IT\DART\FLUTTER\PROJECTS\APPLE_CISCO\BUILD\WINDOWS\CMAKEFILES\ACC6CBDDD1FD6BCB92F269982F5A0813\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/IT/dart/flutter/Projects/apple_cisco/windows -BE:/IT/dart/flutter/Projects/apple_cisco/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/IT/dart/flutter/Projects/apple_cisco/build/windows/apple_cisco.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

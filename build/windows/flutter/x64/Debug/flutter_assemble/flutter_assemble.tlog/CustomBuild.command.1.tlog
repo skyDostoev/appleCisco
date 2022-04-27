@@ -1,0 +1,28 @@
+^E:\IT\DART\FLUTTER\PROJECTS\APPLE_CISCO\BUILD\WINDOWS\CMAKEFILES\985669EE68B7264D485F09CD1F5B3D77\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=E:\IT\dart\flutter\INSTALL PROJECT_DIR=E:\IT\dart\flutter\Projects\apple_cisco FLUTTER_ROOT=E:\IT\dart\flutter\INSTALL FLUTTER_EPHEMERAL_DIR=E:\IT\dart\flutter\Projects\apple_cisco\windows\flutter\ephemeral PROJECT_DIR=E:\IT\dart\flutter\Projects\apple_cisco FLUTTER_TARGET=E:\IT\dart\flutter\Projects\apple_cisco\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=E:\IT\dart\flutter\Projects\apple_cisco\.dart_tool\package_config.json E:/IT/dart/flutter/INSTALL/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\IT\DART\FLUTTER\PROJECTS\APPLE_CISCO\BUILD\WINDOWS\CMAKEFILES\3B7C09A862648FE61C0B75742A57FE9C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\IT\DART\FLUTTER\PROJECTS\APPLE_CISCO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/IT/dart/flutter/Projects/apple_cisco/windows -BE:/IT/dart/flutter/Projects/apple_cisco/build/windows --check-stamp-file E:/IT/dart/flutter/Projects/apple_cisco/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

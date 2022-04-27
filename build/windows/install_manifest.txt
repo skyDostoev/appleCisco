@@ -1,0 +1,9 @@
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/icudtl.dat
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/flutter_windows.dll
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/NOTICES
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+E:/IT/dart/flutter/Projects/apple_cisco/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
